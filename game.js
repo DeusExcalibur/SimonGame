@@ -49,6 +49,14 @@ $(document).on("keypress", function(e){
   }
 });
 
+$("button").on("click", ()=>{
+  if(gamePattern.length == 0){
+    nextSequence();
+  }else{
+
+  }
+})
+
 //Check Answer
 function checkAnswer() {
 
