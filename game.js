@@ -97,6 +97,7 @@ function startOver() {
 //Play Sound
 function playSound(color) {
   let audio = new Audio("./sounds/"+color+".mp3");
+  audio.volume = 0.2;
   audio.play();
 }
 
